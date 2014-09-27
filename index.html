@@ -5,57 +5,106 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--<title><%= content_for?(:title) ? yield(:title) : "Reciclario" %></title>-->
     <title>Reciclario</title>
-
-    <!--<%= stylesheet_link_tag    "application" %>
-    <%= javascript_include_tag "vendor/modernizr" %>
-    <%= csrf_meta_tags %>-->
+    <link href="css/foundation.min.css" rel="stylesheet" media="screen"/>
+    <link href="css/normalize.css" rel="stylesheet" media="screen"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet" media="screen"/>
   </head>
 
   <body>
     <nav class="top-bar" data-topbar role="navigation">
       <ul class="title-area">
         <li class="name">
-          <h1><%= link_to image_tag("logo.png"), root_path, class: "home_link"%></h1>
+          <h1><img src="img/logo.png" class="home_link" /></h1>
         </li>
         <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
       </ul>
-
-      <section class="top-bar-section">
-        <ul class="right">
-          <% unless current_user == nil %>
-            <li class="has-dropdown">
-              <a href="#">Hello, <%= current_user.name.capitalize %> !</a>
-              <ul class="dropdown">
-                <li><label>User</label></li>
-                <!--<li><%= link_to "Profile", user_profiles_path(current_user.username) %></li>-->
-                <li>Profile</li>
-                <li><a>Settings</a></li>
-                <li><a>Groups</a></li>
-                <li><label>Project</label></li>
-                <!--<li><%= link_to "New project", new_project_path %></li>-->
-                <li>New project</li>
-                <!--<li><%= link_to "My projects", projects_path %></li>-->
-                <li>My projects</li>
-                <li><a>Followed projects</a></li>
-                <li><a>My bucket</a></li>
-                <li><a>New post</a></li>
-                <!--<li class="active"><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>-->
-                <li>Logout</li>
-              </ul>
-            </li>
-          <!--<% else %>
-            <li class="hidden-for-small-only"><%= link_to "Sign in", new_user_session_path %></li>
-          <% end %>-->
-        </ul>
-      </section>
     </nav>
-    <!--<%= render 'layouts/header'%>
-    <div class="row content-row">
-      <%= yield %>
-      <%= javascript_include_tag "application" %>
-    </div>
-    <%= render 'layouts/footer'%>-->
+    <section id="home" data-type="background" data-speed="10">
+      <article>
+        <div class="row">
+          <div class="small-12 large-8 large-centered columns">
+            <div class="small-6 columns">
+              <label for="right-label" class="right inline">I want to make</label>
+            </div>
+            <div class="small-6 columns">
+              <input class="radius" type="text" placeholder="paper"/>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" data-type="background" data-speed="10">
+      <article>
+        <h1>You can make a difference</h1>
+        <div class="row">
+          <div class="small-12 medium-3 columns">
+            <div class="panel">
+              <h4 class="text-centered">Fill your Bucket</h4>
+              <h2><i class="fa fa-recycle"></i></h2>
+
+              <hr/>
+
+              <p>Simply go to your bucket list and add all the recycled items that you own.</p>
+
+            </div>
+          </div>
+
+          <div class="small-12 medium-3 columns">
+            <div class="panel">
+              <h4 class="text-centered">Exchange Items</h4>
+              <h2><i class="fa fa-gift"></i></h2>
+              
+              <hr/>
+
+              <p>Exchange materials with other users and groups to make your and their projects come true.</p>
+
+            </div>
+          </div>
+
+          <div class="small-12 medium-3 columns">
+            <div class="panel">
+              <h4 class="text-centered">Join a Group</h4>
+              <h2><i class="fa fa-users"></i></h2>
+
+              <hr/>
+
+              <p>Share your work and passion with others, work on colaborative projects.</p>
+
+            </div>
+          </div>
+
+          <div class="small-12 medium-3 columns">
+            <div class="panel">
+              <h4 class="text-centered">Propose Ideas</h4>
+              <h2><i class="fa fa-lightbulb-o"></i></h2>
+
+              <hr/>
+
+              <p>Doesn't have trash on your garage? You can collaborate by posting projects and ideas.</p>
+
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <footer id="footer">
+      <div class="row">
+        <div class="small-8 large-5 columns">
+          <div class="info-1">
+            <h6>Copyright 2014 &copy; All rights reserved</h6>
+            <img class="hidden-for-small-only" src="http://forthebadge.com/badges/built-with-love.svg" />
+            <img class="hidden-for-small-only" src="http://forthebadge.com/badges/gluten-free.svg" />
+          </div>
+        </div>
+        <div class="small-4 large-2 columns">
+          <div class="info-3">
+            <img alt="H4g logo" class="right" src="img/h4g-logo.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
