@@ -1,0 +1,61 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--<title><%= content_for?(:title) ? yield(:title) : "Reciclario" %></title>-->
+    <title>Reciclario</title>
+
+    <!--<%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "vendor/modernizr" %>
+    <%= csrf_meta_tags %>-->
+  </head>
+
+  <body>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><%= link_to image_tag("logo.png"), root_path, class: "home_link"%></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <% unless current_user == nil %>
+            <li class="has-dropdown">
+              <a href="#">Hello, <%= current_user.name.capitalize %> !</a>
+              <ul class="dropdown">
+                <li><label>User</label></li>
+                <!--<li><%= link_to "Profile", user_profiles_path(current_user.username) %></li>-->
+                <li>Profile</li>
+                <li><a>Settings</a></li>
+                <li><a>Groups</a></li>
+                <li><label>Project</label></li>
+                <!--<li><%= link_to "New project", new_project_path %></li>-->
+                <li>New project</li>
+                <!--<li><%= link_to "My projects", projects_path %></li>-->
+                <li>My projects</li>
+                <li><a>Followed projects</a></li>
+                <li><a>My bucket</a></li>
+                <li><a>New post</a></li>
+                <!--<li class="active"><%= link_to('Logout', destroy_user_session_path, :method => :delete) %></li>-->
+                <li>Logout</li>
+              </ul>
+            </li>
+          <!--<% else %>
+            <li class="hidden-for-small-only"><%= link_to "Sign in", new_user_session_path %></li>
+          <% end %>-->
+        </ul>
+      </section>
+    </nav>
+    <!--<%= render 'layouts/header'%>
+    <div class="row content-row">
+      <%= yield %>
+      <%= javascript_include_tag "application" %>
+    </div>
+    <%= render 'layouts/footer'%>-->
+  </body>
+</html>
