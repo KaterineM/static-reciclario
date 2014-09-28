@@ -1,0 +1,66 @@
+/*
+ * elemento {
+ *    propiedad: valor;
+ * }
+ *
+ * .class {
+ *    propiedad: valor;
+ * }
+ *
+ * #id {
+ *    propiedad: valor;
+ * }
+ *
+ * li > a {
+ *    UN LINK DENTRO DE UN li
+ * }
+ *
+ * li.class
+ * li#id
+ *
+ * :hover (mouse encima)
+ * :first-child (primer hijo)
+ * :last-child (ultimo hijo)
+ *
+ */
+
+body{
+  background: yellow;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: blue;
+}
+
+#black{
+  background: black;
+  color: white;
+  border: 5px solid blue;
+}
+.box{
+  width: 50%;
+  border: 5px solid black;
+}
+
+#red{
+  background: red;
+  color: white;
+}
+
+img{
+  width: 100px;
+  height: auto;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 50px;
+  background: white;
+}
+

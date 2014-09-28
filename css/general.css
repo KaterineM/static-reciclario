@@ -181,6 +181,10 @@ a, a:hover {
     border-top: 5px solid #a8c855;
 }
 
+.cofounder-image{
+    width: 80%;
+    height: auto;
+}
 
 /*=====================*/
 
@@ -272,7 +276,7 @@ p, span, h1, h2, h3, h4, h5, h6, label {
  footer {
     background: #618b6f;
     border-top: 5px solid #a8c855;
-    /*height: 155px;*/
+    height: 155px;
 }
  footer .info-1 {
     margin-top: 40px;
