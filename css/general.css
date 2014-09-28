@@ -182,8 +182,15 @@ a, a:hover {
 }
 
 .cofounder-image{
-    width: 80%;
+    width: 50%;
     height: auto;
+}
+
+.cofounder-socialinfo{
+    font-size: 1.8em;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 /*=====================*/
