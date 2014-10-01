@@ -188,10 +188,29 @@ a, a:hover {
 
 .cofounder-socialinfo{
     font-size: 1.8em;
+    font-weight: auto;
+    color: black;
     margin: 5px;
     border: 1px solid black;
     padding: 5px;
+    /*position: absolute;*/
+    opacity: 0;
+    border-radius: 50px;
 }
+
+.cofounder-socialinfo:hover{
+    font-size: 1.8em;
+    font-weight: auto;
+    color: black;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    /*position: absolute;*/
+    opacity: 1;
+    border-radius: 50px;
+}
+
+h3 > 
 
 /*=====================*/
 
@@ -264,12 +283,15 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 }
 
  #who {
-    background: #eee 50% 0;
+    background: url("../img/N_DSC0027.jpg") 100% 0 repeat fixed;
     height: 500px;
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
     position: relative;
+    margin-top: -5px;
+    min-height: 500px;
+    -webkit-mask: rgba(0, 0, 0, 0.5);
 }
 
  #who article {
@@ -278,6 +300,7 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     text-align: center;
     top: 50px;
     width: 100%;
+
 }
 
  footer {
