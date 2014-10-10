@@ -182,33 +182,48 @@ a, a:hover {
 }
 
 .cofounder-image{
-    width: 50%;
+    width: 80%;
     height: auto;
 }
 
-.cofounder-socialinfo{
-    font-size: 1.8em;
-    font-weight: auto;
-    color: black;
-    margin: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    /*position: absolute;*/
-    opacity: 0;
-    border-radius: 50px;
+.cofounder-image:hover{
+
 }
 
-.cofounder-socialinfo:hover{
-    font-size: 1.8em;
-    font-weight: auto;
-    color: black;
-    margin: 5px;
-    border: 1px solid black;
-    padding: 5px;
-    /*position: absolute;*/
-    opacity: 1;
-    border-radius: 50px;
+.cofounder-socialinfo{
+    list-style-type: none;
+    margin: 0 auto 0 auto;
 }
+
+.cofounder-socialinfo li{
+    font-size: 20px;
+    display: inline;
+    padding: 8px 9px 8px 9px;
+    border: 1px solid #55acee;
+    border-radius: 50%;
+    margin-right: 5px;
+    opacity: 0;
+    background-color: #55acee;
+}
+
+.cofounder-socialinfo li:first-child{
+    background-color: #069;
+    border: 1px solid #069;
+}
+
+.cofounder-socialinfo li:last-child{
+    background-color: #1E90FF;
+    border: 1px solid #1E90FF;
+}
+
+.cofounder-socialinfo a{
+    color: white;
+}
+
+.cofounder-socialinfo li:hover{
+    opacity: 1;
+}
+
 
 h3 > 
 
@@ -222,7 +237,7 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 
  #home {
     margin-top: -5px;
-    background: url("../img/home_bg.jpg") 100% 0 repeat fixed;
+    background: white url("../img/home_bg.jpg") 100% 0 repeat fixed;
     min-height: 500px;
     -webkit-mask: rgba(0, 0, 0, 0.5);
     height: 500px;
@@ -282,8 +297,31 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     color: #618b6f;
 }
 
+ #third-section {
+    background: #eee url("../img/texture_main.png") 100% 0 repeat fixed;
+    height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    margin-top: -5px;
+    min-height: 500px;
+    -webkit-mask: rgba(0, 0, 0, 0.5);
+}
+
+ #third-section article{
+    height: 458px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 100%;
+}
+ #third-section h1{
+    color: white;
+}
+
  #who {
-    background: url("../img/N_DSC0027.jpg") 100% 0 repeat fixed;
+    background: white;
     height: 500px;
     margin: 0 auto;
     width: 100%;
@@ -300,7 +338,6 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     text-align: center;
     top: 50px;
     width: 100%;
-
 }
 
  footer {
