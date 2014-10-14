@@ -181,6 +181,21 @@ a, a:hover {
     border-top: 5px solid #a8c855;
 }
 
+#personal-badge-felipe{
+  width: 250px;
+  height: 250px;
+  margin: 0 40px;
+  background: url(https://avatars0.githubusercontent.com/u/1175479?v=2&s=460);
+  background-size: cover;
+}
+
+#personal-badge-katty{
+  width: 250px;
+  height: 250px;
+  margin: 0 40px;
+  background: url(https://avatars3.githubusercontent.com/u/4359931?v=2&s=460);
+  background-size: cover;
+}
 
 .cofounder-image{
     width: 80%;
@@ -194,47 +209,64 @@ a, a:hover {
 }
 
 .cofounder-image:hover{
-    width: 80%;
-    height: auto;
-    opacity: 0.4;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
+  width: 80%;
+  height: auto;
+  opacity: 0.4;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.information-transition{
+  padding-top: 28%;
+  background: rgba(255,255,255,0.4);
+  width: 250px;
+  margin-left: -15px;
+  height: 250px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.information-transition:hover{
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .person-info{
     display: block;
-    color: #afb1b4;
+    color: #fff;
     font-size: 0.7em;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     text-align: center;
     white-space: nowrap;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
-}
-.columns h5{
-    color: #5c5c5c;
-    font-size: medium;
-    margin-bottom: 5px;
-    opacity: 0;
 }
 
-.columns h5:hover{
+.columns h5{
+    color: #272727;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+
+/* .columns h5:hover{
     opacity: 1;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-}
+} */
 
 .person-info::after{
     content: "";
@@ -246,19 +278,13 @@ a, a:hover {
     font-size: 5px;
 }
 
-.person-info:hover{
+/* .person-info:hover{
     opacity: 1;
-}
+}*/
 
 .cofounder-socialinfo{
     list-style-type: none;
     margin: 30px auto 0 auto;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-in;
-    -moz-transition: all 0.3s ease-in;
-    -ms-transition: all 0.3s ease-in;
-    -o-transition: all 0.3s ease-in;
-    transition: all 0.3s ease-in;
 }
 
 .cofounder-socialinfo li{
@@ -286,7 +312,7 @@ a, a:hover {
     color: white;
 }
 
-.cofounder-socialinfo:hover{
+/*.cofounder-socialinfo:hover{
     opacity: 1;
     -webkit-transform: translateY(-10px);
     -webkit-transition: all 0.3s ease-in;
@@ -294,10 +320,7 @@ a, a:hover {
     -ms-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-}
-
-
-h3 > 
+}*/
 
 /*=====================*/
 
