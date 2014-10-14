@@ -193,7 +193,7 @@ a, a:hover {
   width: 250px;
   height: 250px;
   margin: 0 40px;
-  background: url(https://avatars3.githubusercontent.com/u/4359931?v=2&s=460);
+  background: url("../img/aloha.jpg");
   background-size: cover;
 }
 
