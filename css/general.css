@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 .top-bar {
-    height: 70px;
+    height: 61px;
     background: white;
     color: #618b6f;
     border-bottom: 1px solid #618b6f;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
     color: #618b6f;
     background: white;
-    height: 70px;
+    height: 61px;
     width: 115px;
     padding-top: 12px;
     border-bottom: 1px solid #618b6f;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 .top-bar img {
     height: 50px;
     width: auto;
-    margin: 10px;
+    margin: 5px auto auto 10px;
 }
 .top-bar .top-bar-section .has-dropdown.not-click:hover > .dropdown {
     width: 124px;
@@ -58,14 +58,6 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 
 .top-bar .name h1 a {
     color: #618b6f;
-}
-li.right.divider{
-    border-bottom: none;
-    border-top: none;
-    border-right: solid 1px #618b6f;
-    clear: none;
-    height: 70px;
-    width: 0;
 }
 
 .login-form {
