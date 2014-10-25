@@ -346,6 +346,8 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 }
  #home p, #home span, #home h1, #home h2, #home h3, #home h4, #home h5, #home h6, #home label {
     color: white;
+    position: relative;
+    margin-top: -25px;
 }
  #home label {
     font-style: bold;
@@ -371,6 +373,11 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     text-align: center;
     top: 200px;
     width: 100%;
+}
+
+#home .button {
+    position: relative;
+    margin-top: 60px;
 }
 
  #about {
