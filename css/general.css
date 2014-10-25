@@ -3,7 +3,7 @@ import url("http://fonts.googleapis.com/css?family=Maven+Pro");
 * {
     margin: 0;
     padding: 0;
-}
+} 
 
 h1, h2, h3, h4, h5, h6, a, p, span {
     font-family: 'Maven Pro', sans-serif;
@@ -15,19 +15,22 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 .top-bar {
-    height: 75px;
+    height: 70px;
     background: white;
     color: #618b6f;
-    border-bottom: 5px solid #618b6f;
+    border-bottom: 1px solid #618b6f;
 }
 .top-bar a:hover, .top-bar a:visited {
     background: #94a983;
 }
 .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
     color: #618b6f;
-    background: #fafafa;
+    background: white;
     height: 70px;
+    width: 115px;
     padding-top: 12px;
+    border-bottom: 1px solid #618b6f;
+    text-align: center;
 }
 .top-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
     background: #fafafa;
@@ -55,6 +58,14 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 
 .top-bar .name h1 a {
     color: #618b6f;
+}
+li.right.divider{
+    border-bottom: none;
+    border-top: none;
+    border-right: solid 1px #618b6f;
+    clear: none;
+    height: 70px;
+    width: 0;
 }
 
 .login-form {

@@ -12,14 +12,26 @@
   </head>
 
   <body>
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1><img src="img/logo.png" class="home_link" /></h1>
-        </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-      </ul>
-    </nav>
+    <div class="fixed sticky">
+      <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+        <ul class="title-area">
+          <li class="name">
+            <h1><img src="img/logo.png" class="home_link" /></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right same">
+            <li class="right"><a href="#">INGRESAR</a></li>
+            <li class="right divider"></li>
+            <li class="right"><a href="mailto:contacto@reciclar.io">CONTACTO</a></li>
+            <li class="right divider"></li>
+            <li class="right"><a href="http://blog.reciclario.io">BLOG</a></li>
+            <li class="right divider"></li>
+          </ul>
+      </section>
+      </nav>
+    </div>
     <section id="home" data-type="background" data-speed="10">
       <article>
         <div class="row">
@@ -84,14 +96,14 @@
         </div>
       </article>
     </section>
-    
+
     <section id="third-section" data-type="background" data-speed="10">
       <article>
         <h1>Do you want to know what's new? </h1>
         <h3>Visit our blog for more information about events and what's comming out</h3>
       </article>
-    </section>
-
+    </section> 
+    
     <section id="who" data-type="background" data-speed="10">
       <article>
         <h1>Meet the team</h1>
@@ -105,7 +117,6 @@
           </div>  
           <div class="small-12 large-4 columns" id="personal-badge-felipe">
             <div class="information-transition">
-              <!-- img class="cofounder-image" src="https://avatars0.githubusercontent.com/u/1175479?v=2&s=460" / -->
               <h5><b>Felipe Cabargas</b></h5>
               <span class="person-info">
                 Co-Founder
@@ -119,7 +130,6 @@
           </div>
           <div class="small-12 large-4 columns" id="personal-badge-katty">
             <div class="information-transition">
-              <!-- img class="cofounder-image" src="https://avatars3.githubusercontent.com/u/4359931?v=2&s=460" /-->
               <h5><b>Katerine Muñoz</b></h5>
               <span class="person-info">
                 Co-Founder
