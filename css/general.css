@@ -15,26 +15,26 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 .top-bar {
-    height: 61px;
-    background: white;
-    color: #618b6f;
-    border-bottom: 1px solid #618b6f;
+    height: 65px;
+    background: #618b6f;
+    color: white;
+    border-bottom: 5px solid #A8C855;
 }
 .top-bar a:hover, .top-bar a:visited {
     background: #94a983;
 }
 .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
-    color: #618b6f;
-    background: white;
-    height: 61px;
+    color: white;
+    background: #618b6f;
+    height: 65px;
     width: 115px;
     padding-top: 12px;
-    border-bottom: 1px solid #618b6f;
+    border-bottom: 5px solid #A8C855;
     text-align: center;
 }
 .top-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: white;
-    font-weight: bold;
+    background: #618b6f;
+    font-weight: bolder;
 }
 .top-bar .top-bar-section .has-dropdown > a:after {
     margin-top: 9px;
@@ -523,4 +523,54 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 
  .pricing-table .title {
     background: #618b6f;
+}
+
+/* USER PAGE - PROFILE */
+
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro");
+
+p, span, h1, h2, h3, h4, h5, h6, label {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#profile{
+    margin-top: -5px;
+    background: white;
+    min-height: 500px;
+    -webkit-mask: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+
+#profile h1, #profile h2, #profile h3, #profile h4, #profile h5, #profile h6, #profile p{
+    color: #777;
+}
+
+.panel{
+    margin-top: 95px;
+}
+
+.panel.callout{
+    border-color: white;
+    background: white;
+    height: 380px;
+    padding: 1.25em;
+    padding-top: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.profile-image img{
+    width: 25%;
+    height: auto;
+}
+
+.profile-data{
+    margin: 0 -21px 0 -21px;
+}
+
+.button {
+    margin-top: 15px;
 }
