@@ -321,7 +321,7 @@ a, a:hover {
 }
 
 .model-custom img{
-    width: 95%;
+    width: 80%;
     height: auto;
     margin: 0;
 }
@@ -549,6 +549,9 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     color: #777;
 }
 
+#profile h2{
+    color: #232323;
+}
 .panel{
     margin-top: 95px;
 }
@@ -573,4 +576,37 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 
 .button {
     margin-top: 15px;
+}
+
+.project-images{
+    margin-top: 95px;
+}
+
+.project-images li{
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+
+.project-images li:first-child{
+    margin: 0 80px 0 20px;
+}
+
+.project-images li:last-child{
+    margin-right: 20px;
+}
+
+.th{
+    width: 180px;
+    height: 180px;
+    line-height: 0;
+    display: inline-block;
+    border: solid 4px #FFFFFF;
+    max-width: 100%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+.linkto-project{
+    float: right;
 }
