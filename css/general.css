@@ -552,9 +552,9 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 #profile h2{
     color: #232323;
 }
-.panel{
+/*.panel{
     margin-top: 95px;
-}
+}*/
 
 .panel.callout{
     border-color: white;
@@ -609,4 +609,25 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 
 .linkto-project{
     float: right;
+}
+
+.bucket-info i{
+    font-size: 1000%;
+    margin: 56px 0px 0px 80px;
+    color: #94a983;
+    border-color: #618b6f;
+}
+
+.bucket-info{
+    float: right;
+    margin: 94px 90px 0px 0px;
+}
+
+.bucket-info h3{
+    margin-top: -11px;
+}
+
+.bucket-info p{
+    position: relative;
+    margin: 25px 0 75px 0;
 }
