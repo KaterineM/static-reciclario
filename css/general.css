@@ -1,4 +1,4 @@
-import url("http://fonts.googleapis.com/css?family=Maven+Pro");
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro");
 
 * {
     margin: 0;
@@ -15,25 +15,27 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 .top-bar {
-    height: 65px;
-    background: #618b6f;
+    height: 69px;
+    background: #008862;
     color: white;
-    border-bottom: 5px solid #A8C855;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+    box-shadow:         0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+    /*border-bottom: 5px solid #A8C855;*/
 }
-.top-bar a:hover, .top-bar a:visited {
+/*.top-bar a:hover, .top-bar a:visited {
     background: #94a983;
-}
+}*/
 .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
     color: white;
-    background: #618b6f;
+    background: #008862;
     height: 65px;
     width: 115px;
     padding-top: 12px;
-    border-bottom: 5px solid #A8C855;
+    /*border-bottom: 5px solid #A8C855;*/
     text-align: center;
 }
 .top-bar .top-bar-section li:not(.has-form) a:not(.button):hover {
-    background: #618b6f;
     font-weight: bolder;
 }
 .top-bar .top-bar-section .has-dropdown > a:after {
@@ -415,39 +417,6 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     color: #618b6f;
 }
 
- #third-section {
-    background: #eee url("../img/texture_main.png") 100% 0 repeat fixed;
-    height: 500px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
-    position: relative;
-    margin-top: -5px;
-    min-height: 500px;
-    -webkit-mask: rgba(0, 0, 0, 0.5);
-}
-
- #third-section article{
-    height: 458px;
-    position: absolute;
-    text-align: center;
-    top: 50px;
-    width: 100%;
-}
- #third-section h1, #third-section h5, #third-section p{
-    color: white;
-}
-
-#third-section h4{
-    color: white;
-    margin-top: 90px;
-    padding:  0 0 0 214px;
-}
-
-#third-section h1{
-    position: relative;
-    margin-top: -10px;
-}
 
  #who {
     background: white;
@@ -470,8 +439,8 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 }
 
  footer {
-    background: #618b6f;
-    border-top: 5px solid #a8c855;
+    background: #272727;
+    border-top: 5px solid #008862;
     height: 155px;
 }
  footer .info-1 {
@@ -498,7 +467,6 @@ p, span, h1, h2, h3, h4, h5, h6, label {
          #about article {
         height: 950px;
     }
-    
          #home label {
         font-style: bold;
         font-size: 16px;
@@ -525,88 +493,3 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     background: #618b6f;
 }
 
-/* USER PAGE - PROFILE */
-
-@import url("http://fonts.googleapis.com/css?family=Maven+Pro");
-
-p, span, h1, h2, h3, h4, h5, h6, label {
-    font-family: 'Maven Pro', sans-serif;
-}
-
-#profile{
-    margin-top: -5px;
-    background: white;
-    min-height: 500px;
-    -webkit-mask: rgba(0, 0, 0, 0.5);
-    height: 600px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1920px;
-    position: relative;
-}
-
-#profile h1, #profile h2, #profile h3, #profile h4, #profile h5, #profile h6, #profile p{
-    color: #777;
-}
-
-#profile h2{
-    color: #232323;
-}
-.panel{
-    margin-top: 95px;
-}
-
-.panel.callout{
-    border-color: white;
-    background: white;
-    height: 380px;
-    padding: 1.25em;
-    padding-top: 0px;
-    font-family: 'Maven Pro', sans-serif;
-}
-
-.profile-image img{
-    width: 25%;
-    height: auto;
-}
-
-.profile-data{
-    margin: 0 -21px 0 -21px;
-}
-
-.button {
-    margin-top: 15px;
-}
-
-.project-images{
-    margin-top: 95px;
-}
-
-.project-images li{
-    width: 180px;
-    height: 180px;
-    float: right;
-}
-
-.project-images li:first-child{
-    margin: 0 80px 0 20px;
-}
-
-.project-images li:last-child{
-    margin-right: 20px;
-}
-
-.th{
-    width: 180px;
-    height: 180px;
-    line-height: 0;
-    display: inline-block;
-    border: solid 4px #FFFFFF;
-    max-width: 100%;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-    transition: all 200ms ease-out;
-}
-
-.linkto-project{
-    float: right;
-}

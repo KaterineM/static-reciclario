@@ -1,0 +1,85 @@
+/* USER PAGE - PROFILE */
+
+@import url("http://fonts.googleapis.com/css?family=Maven+Pro");
+
+p, span, h1, h2, h3, h4, h5, h6, label {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#profile{
+    margin-top: -5px;
+    background: white;
+    min-height: 500px;
+    -webkit-mask: rgba(0, 0, 0, 0.5);
+    height: 600px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+}
+
+#profile h1, #profile h2, #profile h3, #profile h4, #profile h5, #profile h6, #profile p{
+    color: #777;
+}
+
+#profile h2{
+    color: #232323;
+}
+.panel{
+    margin-top: 95px;
+}
+
+.panel.callout{
+    border-color: white;
+    background: white;
+    height: 380px;
+    padding: 1.25em;
+    padding-top: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.profile-image img{
+    width: 25%;
+    height: auto;
+}
+
+.profile-data{
+    margin: 0 -21px 0 -21px;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.project-images{
+    margin-top: 95px;
+}
+
+.project-images li{
+    width: 180px;
+    height: 180px;
+    float: right;
+}
+
+.project-images li:first-child{
+    margin: 0 80px 0 20px;
+}
+
+.project-images li:last-child{
+    margin-right: 20px;
+}
+
+.th{
+    width: 180px;
+    height: 180px;
+    line-height: 0;
+    display: inline-block;
+    border: solid 4px #FFFFFF;
+    max-width: 100%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
+
+.linkto-project{
+    float: right;
+}
