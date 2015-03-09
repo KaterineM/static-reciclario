@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-} 
+}
 
 h1, h2, h3, h4, h5, h6, a, p, span {
     font-family: 'Maven Pro', sans-serif;
@@ -19,13 +19,15 @@ h1, h2, h3, h4, h5, h6, a, p, span {
     background: #008862;
     color: white;
     -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
-    -moz-box-shadow:    0px 5px 10px 0px rgba(0, 0, 0, 0.55);
-    box-shadow:         0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+       -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
     /*border-bottom: 5px solid #A8C855;*/
 }
+
 /*.top-bar a:hover, .top-bar a:visited {
     background: #94a983;
 }*/
+
 .top-bar .top-bar-section li:not(.has-form) a:not(.button) {
     color: white;
     background: #008862;
@@ -44,7 +46,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 .top-bar img {
     height: 50px;
     width: auto;
-    margin: 5px auto auto 186px;
+    margin: 9px auto auto 186px;
 }
 .top-bar .top-bar-section .has-dropdown.not-click:hover > .dropdown {
     width: 124px;
@@ -72,10 +74,10 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 .button {
-    background: #94a983;
+    background: #008862;
 }
 .button:hover {
-    background: #618b6f;
+    background: #008862;
 }
 
 a, a:hover {
@@ -350,7 +352,7 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 
  #home {
     margin-top: -5px;
-    background: white url("../img/home_bg.jpg") 100% 0 repeat fixed;
+    background: white;
     min-height: 500px;
     -webkit-mask: rgba(0, 0, 0, 0.5);
     height: 500px;
@@ -360,7 +362,7 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     position: relative;
 }
  #home p, #home span, #home h1, #home h2, #home h3, #home h4, #home h5, #home h6, #home label {
-    color: white;
+    color: #272727;
     position: relative;
     margin-top: -25px;
 }
@@ -368,21 +370,23 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     font-style: bold;
     font-size: 32px;
 }
- #home label.inline {
+
+#home label.inline {
     padding: 0;
 }
- #home input {
+
+#home input {
     background: none;
     border: none;
     border-bottom: 2px solid white;
     box-shadow: none;
     cursor: text;
-    color: white;
+    color: #272727;
     height: 50px;
     font-size: 30px;
 }
 
- #home article {
+#home article {
     height: 458px;
     position: absolute;
     text-align: center;
@@ -395,8 +399,8 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     margin-top: 60px;
 }
 
- #about {
-    background: white 50% 0;
+#about {
+    background: white url("../img/home_bg.jpg") 100% 0 repeat fixed;
     height: 500px;
     margin: 0 auto;
     width: 100%;
@@ -413,13 +417,16 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     top: 50px;
     width: 100%;
 }
- #about article i {
-    color: #618b6f;
+#about article i {
+    color: #008862;
 }
 
+#about article h1 {
+    color: white;
+}
 
  #who {
-    background: white;
+    background: #eee url("../img/texture_main.png") 100% 0 repeat fixed;
     height: 500px;
     margin: 0 auto;
     width: 100%;
@@ -436,6 +443,10 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     text-align: center;
     top: 50px;
     width: 100%;
+}
+
+#who h1, #who h5, #who h4, #who p{
+    color: white;
 }
 
  footer {
@@ -461,20 +472,20 @@ p, span, h1, h2, h3, h4, h5, h6, label {
 }
 
 @media (max-width: 959px) {
-         #about {
+    #about {
         height: 1200px;
     }
-         #about article {
+    #about article {
         height: 950px;
     }
-         #home label {
+    #home label {
         font-style: bold;
         font-size: 16px;
     }
-         #home label.inline {
+    #home label.inline {
         padding: 0;
     }
-         #home input {
+    #home input {
         background: none;
         border: none;
         border-bottom: 2px solid white;
@@ -493,3 +504,11 @@ p, span, h1, h2, h3, h4, h5, h6, label {
     background: #618b6f;
 }
 
+/*======== GENERAL OVERRIDES ========*/
+.panel{
+    background: white;
+    border: none;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+       -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
+}
