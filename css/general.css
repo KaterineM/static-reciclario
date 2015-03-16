@@ -324,24 +324,6 @@ a, a:hover {
     color: white;
 }
 
-.model-custom img{
-    width: 80%;
-    height: auto;
-    margin: 0;
-}
-
-.model-custom .android img{
-    position: relative;
-    padding-top: 25px;
-    margin: 0 13px 0 0;
-}
-
-.model-custom .iphone img{
-    position: relative;
-    padding-top: 25px;
-    margin: 0 100px 0 -160px;
-}
-
 /*=====================*/
 
 @import url("http://fonts.googleapis.com/css?family=Maven+Pro");
